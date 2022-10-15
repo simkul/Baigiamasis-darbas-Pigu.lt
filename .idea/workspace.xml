@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="637ad6e6-0261-4006-bdfd-63018649c199" name="Changes" comment="Implement TestListener method">
+    <list default="true" id="637ad6e6-0261-4006-bdfd-63018649c199" name="Changes" comment="Add TestListener method to utils package">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/piguLt/utils/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/piguLt/utils/TestListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/piguLt/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/piguLt/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,12 +148,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665838630573</updated>
-    </task>
-    <task id="LOCAL−00015" summary="Implement Privacity Confirmation">
-      <created>1665842831076</created>
-      <option name="number" value="LOCAL−00015" />
-      <option name="presentableId" value="LOCAL−00015" />
-      <updated>1665842831076</updated>
     </task>
     <task id="LOCAL−00016" summary="Add  acceptPrivacityConfirmation method to LoginPage class">
       <created>1665842905384</created>
@@ -444,7 +437,13 @@
       <option name="presentableId" value="LOCAL−00063" />
       <updated>1665860218695</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL−00064" summary="Add TestListener method to utils package">
+      <created>1665860989871</created>
+      <option name="number" value="LOCAL−00064" />
+      <option name="presentableId" value="LOCAL−00064" />
+      <updated>1665860989871</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -459,7 +458,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add Assert to SearchPage" />
     <MESSAGE value="Add doubleClick method toSearchPage" />
     <MESSAGE value="Add doubleClick locator" />
     <MESSAGE value="Add doubleClick by Action method do Common class" />
@@ -484,6 +482,7 @@
     <MESSAGE value="Add String to testSearchGiftCardAtPrice50Eu" />
     <MESSAGE value="Implement TestListener" />
     <MESSAGE value="Implement TestListener method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement TestListener method" />
+    <MESSAGE value="Add TestListener method to utils package" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add TestListener method to utils package" />
   </component>
 </project>
