@@ -18,12 +18,12 @@ public class Locators {
             public static By paragraphName = By.xpath("/html/body/div[10]/div/section[2]/div/h1");
             public static By errorMessage = By.xpath ("<div class=\"error-message\">Neteisingi prisijungimo duomenys</div>");
 
-
-
-
-
-
-
+        }
+        public static class Search{
+            public static By inputItemname = By.xpath("//*[@id=\"searchInput\"]");
+            public static By searchButton = By.xpath("//*[@id=\"main-search-form\"]/button[2]/i");
+            public static By searchedItem = By.xpath("//*[@id=\"productBlock49514933\"]/div/div/div[4]");
+            public static By loadednNewPage = By.xpath("//*[@id=\"galleryThumbnails44424153\"]/div[2]/div/div[1]/div/img");
 
 
         }
