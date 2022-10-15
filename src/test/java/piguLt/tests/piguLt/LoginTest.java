@@ -23,6 +23,7 @@ public class LoginTest extends TestBase {
 
         LoginPage.waitForLoginFormVisabilyti();
         LoginPage.enetrEmail(insertEmail);
+        LoginPage.enerPassword(insertPassword);
 
 
     }
