@@ -14,7 +14,7 @@ public class GiftCardTest extends TestBase {
         GiftCardPage.acceptPrivacyConfirmation();
     }
     @Test
-    private void testAddGiftCard(){
+    private void testSearchGiftCardAtPrice50Eu(){
         String maxPrice = "50";
 
         GiftCardPage.clickOnPiguLtKuponai();
