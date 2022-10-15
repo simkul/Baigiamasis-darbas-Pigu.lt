@@ -1,4 +1,7 @@
 package piguLt.tests.piguLt;
 
-public class LoginTest {
+import piguLt.tests.TestBase;
+
+public class LoginTest extends TestBase {
+
 }
