@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="637ad6e6-0261-4006-bdfd-63018649c199" name="Changes" comment="Add methods to accept cookies" />
+    <list default="true" id="637ad6e6-0261-4006-bdfd-63018649c199" name="Changes" comment="Add String to testSearchGiftCardAtPrice50Eu">
+      <change afterPath="$PROJECT_DIR$/src/test/java/piguLt/utils/TestListener.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +36,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.CartTest">
+  <component name="RunManager" selected="TestNG.GiftCardTest">
     <configuration name="CartTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="piguLt" />
       <extension name="coverage">
@@ -70,7 +72,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.testLoginWithWrongPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GiftCardTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="piguLt" />
       <extension name="coverage">
         <pattern>
@@ -79,9 +81,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="piguLt.tests.piguLt" />
-      <option name="MAIN_CLASS_NAME" value="piguLt.tests.piguLt.LoginTest" />
-      <option name="METHOD_NAME" value="testLoginWithWrongPassword" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="piguLt.tests.piguLt.GiftCardTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -125,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GiftCardTest" />
         <item itemvalue="TestNG.CartTest" />
         <item itemvalue="TestNG.CartTest.testAddToCartItem" />
         <item itemvalue="TestNG.SearchTest" />
         <item itemvalue="TestNG.SearchTest.testSearchinSearchLine" />
-        <item itemvalue="TestNG.LoginTest.testLoginWithWrongPassword" />
       </list>
     </recent_temporary>
   </component>
@@ -141,72 +142,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665838630573</updated>
-    </task>
-    <task id="LOCAL−00002" summary="Add Common and Locatrs class to page package">
-      <created>1665839127549</created>
-      <option name="number" value="LOCAL−00002" />
-      <option name="presentableId" value="LOCAL−00002" />
-      <updated>1665839127549</updated>
-    </task>
-    <task id="LOCAL−00003" summary="Add Driver class to utils package">
-      <created>1665839343979</created>
-      <option name="number" value="LOCAL−00003" />
-      <option name="presentableId" value="LOCAL−00003" />
-      <updated>1665839343979</updated>
-    </task>
-    <task id="LOCAL−00004" summary="Add TestBase class to tests package">
-      <created>1665839472654</created>
-      <option name="number" value="LOCAL−00004" />
-      <option name="presentableId" value="LOCAL−00004" />
-      <updated>1665839472654</updated>
-    </task>
-    <task id="LOCAL−00005" summary="Add TestBase class to tests package">
-      <created>1665839528697</created>
-      <option name="number" value="LOCAL−00005" />
-      <option name="presentableId" value="LOCAL−00005" />
-      <updated>1665839528697</updated>
-    </task>
-    <task id="LOCAL−00006" summary="Add to TestBase class Before and after methods">
-      <created>1665840076659</created>
-      <option name="number" value="LOCAL−00006" />
-      <option name="presentableId" value="LOCAL−00006" />
-      <updated>1665840076659</updated>
-    </task>
-    <task id="LOCAL−00007" summary="Add LoginPage and LoginTest class">
-      <created>1665840288714</created>
-      <option name="number" value="LOCAL−00007" />
-      <option name="presentableId" value="LOCAL−00007" />
-      <updated>1665840288714</updated>
-    </task>
-    <task id="LOCAL−00008" summary="Implement LoginTest class extends TestBaseclass">
-      <created>1665840369759</created>
-      <option name="number" value="LOCAL−00008" />
-      <option name="presentableId" value="LOCAL−00008" />
-      <updated>1665840369759</updated>
-    </task>
-    <task id="LOCAL−00009" summary="Implement LoginTest class extends TestBaseclass">
-      <created>1665840396866</created>
-      <option name="number" value="LOCAL−00009" />
-      <option name="presentableId" value="LOCAL−00009" />
-      <updated>1665840396866</updated>
-    </task>
-    <task id="LOCAL−00010" summary="Add to setUp method .open()">
-      <created>1665840895831</created>
-      <option name="number" value="LOCAL−00010" />
-      <option name="presentableId" value="LOCAL−00010" />
-      <updated>1665840895831</updated>
-    </task>
-    <task id="LOCAL−00011" summary="Add open method to LoginPage">
-      <created>1665840924340</created>
-      <option name="number" value="LOCAL−00011" />
-      <option name="presentableId" value="LOCAL−00011" />
-      <updated>1665840924340</updated>
-    </task>
-    <task id="LOCAL−00012" summary="Add getDriver method to Driver class">
-      <created>1665840977116</created>
-      <option name="number" value="LOCAL−00012" />
-      <option name="presentableId" value="LOCAL−00012" />
-      <updated>1665840977116</updated>
     </task>
     <task id="LOCAL−00013" summary="Add openUrl method to Common class">
       <created>1665841003397</created>
@@ -436,7 +371,73 @@
       <option name="presentableId" value="LOCAL−00050" />
       <updated>1665855427442</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL−00051" summary="Add GiftCardPage and GiftCardTest">
+      <created>1665856477858</created>
+      <option name="number" value="LOCAL−00051" />
+      <option name="presentableId" value="LOCAL−00051" />
+      <updated>1665856477858</updated>
+    </task>
+    <task id="LOCAL−00052" summary="Add locators to GiftCard class">
+      <created>1665857687629</created>
+      <option name="number" value="LOCAL−00052" />
+      <option name="presentableId" value="LOCAL−00052" />
+      <updated>1665857687629</updated>
+    </task>
+    <task id="LOCAL−00053" summary="Implement GiftCardPage">
+      <created>1665857724857</created>
+      <option name="number" value="LOCAL−00053" />
+      <option name="presentableId" value="LOCAL−00053" />
+      <updated>1665857724857</updated>
+    </task>
+    <task id="LOCAL−00054" summary="Implement GiftCardTest">
+      <created>1665857746517</created>
+      <option name="number" value="LOCAL−00054" />
+      <option name="presentableId" value="LOCAL−00054" />
+      <updated>1665857746517</updated>
+    </task>
+    <task id="LOCAL−00055" summary="Implement Locators to GiftCard class">
+      <created>1665858527221</created>
+      <option name="number" value="LOCAL−00055" />
+      <option name="presentableId" value="LOCAL−00055" />
+      <updated>1665858527221</updated>
+    </task>
+    <task id="LOCAL−00056" summary="Rename test">
+      <created>1665858565030</created>
+      <option name="number" value="LOCAL−00056" />
+      <option name="presentableId" value="LOCAL−00056" />
+      <updated>1665858565030</updated>
+    </task>
+    <task id="LOCAL−00057" summary="Implement testSearchGiftCardAtPrice50Eu test">
+      <created>1665858603914</created>
+      <option name="number" value="LOCAL−00057" />
+      <option name="presentableId" value="LOCAL−00057" />
+      <updated>1665858603914</updated>
+    </task>
+    <task id="LOCAL−00058" summary="Add methods to GiftCardPage">
+      <created>1665858626459</created>
+      <option name="number" value="LOCAL−00058" />
+      <option name="presentableId" value="LOCAL−00058" />
+      <updated>1665858626459</updated>
+    </task>
+    <task id="LOCAL−00059" summary="Add paragraphText locator">
+      <created>1665859129651</created>
+      <option name="number" value="LOCAL−00059" />
+      <option name="presentableId" value="LOCAL−00059" />
+      <updated>1665859129651</updated>
+    </task>
+    <task id="LOCAL−00060" summary="Add readGiftCardName method to GiftCardPage">
+      <created>1665859180044</created>
+      <option name="number" value="LOCAL−00060" />
+      <option name="presentableId" value="LOCAL−00060" />
+      <updated>1665859180044</updated>
+    </task>
+    <task id="LOCAL−00061" summary="Add String to testSearchGiftCardAtPrice50Eu">
+      <created>1665859207347</created>
+      <option name="number" value="LOCAL−00061" />
+      <option name="presentableId" value="LOCAL−00061" />
+      <updated>1665859207347</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -451,17 +452,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement eneter password" />
-    <MESSAGE value="Add enterPassword method to LofinPage" />
-    <MESSAGE value="Add locator inputPassword to Login locators class" />
-    <MESSAGE value="Implement clickElement to prisijungti button" />
-    <MESSAGE value="Implement wait method" />
-    <MESSAGE value="Implement readParagraphName method" />
-    <MESSAGE value="Add locator" />
-    <MESSAGE value="Add assert to Test testLoginWithCorrectData" />
-    <MESSAGE value="Add testLoginWithWrongPassword test" />
-    <MESSAGE value="Add SearchPage and SearchTest classes" />
-    <MESSAGE value="Implement testSearchinSearchLine test" />
     <MESSAGE value="Implement SearchPage methods" />
     <MESSAGE value="Add locators to Search class" />
     <MESSAGE value="Add Assert to SearchPage" />
@@ -476,6 +466,17 @@
     <MESSAGE value="Add assert to CartTest" />
     <MESSAGE value="Add methods to CartPage" />
     <MESSAGE value="Add methods to accept cookies" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add methods to accept cookies" />
+    <MESSAGE value="Add GiftCardPage and GiftCardTest" />
+    <MESSAGE value="Add locators to GiftCard class" />
+    <MESSAGE value="Implement GiftCardPage" />
+    <MESSAGE value="Implement GiftCardTest" />
+    <MESSAGE value="Implement Locators to GiftCard class" />
+    <MESSAGE value="Rename test" />
+    <MESSAGE value="Implement testSearchGiftCardAtPrice50Eu test" />
+    <MESSAGE value="Add methods to GiftCardPage" />
+    <MESSAGE value="Add paragraphText locator" />
+    <MESSAGE value="Add readGiftCardName method to GiftCardPage" />
+    <MESSAGE value="Add String to testSearchGiftCardAtPrice50Eu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add String to testSearchGiftCardAtPrice50Eu" />
   </component>
 </project>
