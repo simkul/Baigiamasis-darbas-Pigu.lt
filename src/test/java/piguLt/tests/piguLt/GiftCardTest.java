@@ -20,9 +20,15 @@ public class GiftCardTest extends TestBase {
         GiftCardPage.clickOnPiguLtKuponai();
         GiftCardPage.waitForPiguLtKuponaiPage();
         GiftCardPage.clickOnFiltraiButton();
+        GiftCardPage.waitForFiltraiPage();
         GiftCardPage.doubleClickOnPrice();
         GiftCardPage.enetrMaxPrice(maxPrice);
         GiftCardPage.clickToCloseFiltrai();
+        GiftCardPage.waitForGiftCardPage();
+        GiftCardPage.clickOnNeededGiftCsrd();
+        GiftCardPage.waitFor50EUGifCardPageLoad();
+
+
 
     }
 }
