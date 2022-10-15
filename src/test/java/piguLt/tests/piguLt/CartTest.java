@@ -12,6 +12,7 @@ public class CartTest extends TestBase {
     public void setUp() {
         super.setUp();
         CartPage.open("https://pigu.lt/lt/kvepalai-pigiau/kvepalai-moterims/tualetinis-vanduo-dolce-gabbana-3-limperatrice-edt?id=538670");
+        CartPage.acceptPrivacyConfirmation();
     }
 
     @Test

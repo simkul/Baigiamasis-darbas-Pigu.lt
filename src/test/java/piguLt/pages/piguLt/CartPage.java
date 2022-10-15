@@ -8,14 +8,19 @@ public class CartPage {
         Common.openUrl(url);
     }
 
+    public static void acceptPrivacyConfirmation() {
+        Common.waitForElementChangeVisability(Locators.PiguLt.Cookies.coockieBlog);
+        Common.clickElement(Locators.PiguLt.Cookies.coockieAceptButton);
+    }
+
     public static void clickDouble() {
         Common.doubleClickByActions(Locators.PiguLt.Cart.section);
     }
-
     public static void enterNeededAmount(String neededAmount) {
         Common.sendKeysToElement(neededAmount,
                 Locators.PiguLt.Cart.section);
     }
+
     public static void clickOnAddButto() {
         Common.clickElement(Locators.PiguLt.Cart.AddToCartButton);
     }
