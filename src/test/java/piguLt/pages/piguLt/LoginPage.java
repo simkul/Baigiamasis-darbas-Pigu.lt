@@ -16,5 +16,12 @@ public class LoginPage {
     public static void waitForLoginFormVisabilyti() {
         Common.waitForElementChangeVisability(Locators.PiguLt.Login.loginForm);
     }
+
+    public static void enetrEmail(String insertEmail) {
+        Common.sendKeysToElement(
+                insertEmail,
+                Locators.PiguLt.Login.inputEmail
+        );
+    }
 }
 
