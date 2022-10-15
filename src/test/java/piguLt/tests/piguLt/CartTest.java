@@ -21,6 +21,13 @@ public class CartTest extends TestBase {
         String actualItem = null;
 
 
+        CartPage.clickDouble();
+        CartPage.enterNeededAmount(neededAmount);
+        CartPage.clickOnAddButto();
+        CartPage.waitForCartForm();
+        CartPage.closeCartForm();
+        CartPage.clickOnCartIcon();
+        CartPage.waitForCarPageLoad();
 
     }
 }
