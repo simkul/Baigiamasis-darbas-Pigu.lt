@@ -10,6 +10,8 @@ public class Locators {
             public static By coockieAceptButton = By.xpath("//*[@id=\"cookie_block\"]/div/div/div[2]/button");
         }
         public static class Login{
+            public static By loginForm = By.xpath("//*[@id=\"loginModal\"]/div[1]/div[1]/form");
+
 
 
         }
