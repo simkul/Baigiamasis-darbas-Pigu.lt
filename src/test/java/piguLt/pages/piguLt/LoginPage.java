@@ -23,5 +23,12 @@ public class LoginPage {
                 Locators.PiguLt.Login.inputEmail
         );
     }
+
+    public static void enerPassword(String insertPassword) {
+        Common.sendKeysToElement(
+                insertPassword,
+                Locators.PiguLt.Login.inputPassword
+        );
+    }
 }
 
