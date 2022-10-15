@@ -11,6 +11,8 @@ public class Locators {
         }
         public static class Login{
             public static By loginForm = By.xpath("//*[@id=\"loginModal\"]/div[1]/div[1]/form");
+            public static By inputEmail = By.xpath("//*[@id=\"loginModal\"]/div[1]/div[1]/form/div[2]/input");
+
 
 
 
