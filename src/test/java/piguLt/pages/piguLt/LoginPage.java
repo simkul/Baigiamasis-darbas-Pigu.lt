@@ -30,5 +30,9 @@ public class LoginPage {
                 Locators.PiguLt.Login.inputPassword
         );
     }
+
+    public static void clickOnPrisijungtiButton() {
+        Common.clickElement(Locators.PiguLt.Login.prisijungtiButton);
+    }
 }
 
