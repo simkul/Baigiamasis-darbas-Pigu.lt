@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="637ad6e6-0261-4006-bdfd-63018649c199" name="Changes" comment="Add assert to Test testLoginWithCorrectData">
+    <list default="true" id="637ad6e6-0261-4006-bdfd-63018649c199" name="Changes" comment="Add locators to Search class">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/piguLt/pages/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/piguLt/pages/Locators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/piguLt/pages/piguLt/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/piguLt/pages/piguLt/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/piguLt/tests/piguLt/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/piguLt/tests/piguLt/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/piguLt/pages/piguLt/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/piguLt/pages/piguLt/SearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/piguLt/tests/piguLt/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/piguLt/tests/piguLt/SearchTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +39,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.LoginTest.testLoginWithWrongPassword">
+  <component name="RunManager" selected="TestNG.SearchTest.testSearchinSearchLine">
     <configuration name="LoginTest.testLoginWithCorrectData" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="piguLt" />
       <extension name="coverage">
@@ -75,8 +76,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchTest.testSearchinSearchLine" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="piguLt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="piguLt.tests.piguLt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="piguLt.tests.piguLt" />
+      <option name="MAIN_CLASS_NAME" value="piguLt.tests.piguLt.SearchTest" />
+      <option name="METHOD_NAME" value="testSearchinSearchLine" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SearchTest.testSearchinSearchLine" />
         <item itemvalue="TestNG.LoginTest.testLoginWithWrongPassword" />
         <item itemvalue="TestNG.LoginTest.testLoginWithCorrectData" />
       </list>
@@ -289,7 +309,37 @@
       <option name="presentableId" value="LOCAL−00033" />
       <updated>1665847146935</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL−00034" summary="Add testLoginWithWrongPassword test">
+      <created>1665848088900</created>
+      <option name="number" value="LOCAL−00034" />
+      <option name="presentableId" value="LOCAL−00034" />
+      <updated>1665848088901</updated>
+    </task>
+    <task id="LOCAL−00035" summary="Add SearchPage and SearchTest classes">
+      <created>1665848862523</created>
+      <option name="number" value="LOCAL−00035" />
+      <option name="presentableId" value="LOCAL−00035" />
+      <updated>1665848862523</updated>
+    </task>
+    <task id="LOCAL−00036" summary="Implement testSearchinSearchLine test">
+      <created>1665850833540</created>
+      <option name="number" value="LOCAL−00036" />
+      <option name="presentableId" value="LOCAL−00036" />
+      <updated>1665850833540</updated>
+    </task>
+    <task id="LOCAL−00037" summary="Implement SearchPage methods">
+      <created>1665850891510</created>
+      <option name="number" value="LOCAL−00037" />
+      <option name="presentableId" value="LOCAL−00037" />
+      <updated>1665850891510</updated>
+    </task>
+    <task id="LOCAL−00038" summary="Add locators to Search class">
+      <created>1665850916121</created>
+      <option name="number" value="LOCAL−00038" />
+      <option name="presentableId" value="LOCAL−00038" />
+      <updated>1665850916121</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -304,11 +354,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement LoginTest class extends TestBaseclass" />
-    <MESSAGE value="Add to setUp method .open()" />
-    <MESSAGE value="Add open method to LoginPage" />
-    <MESSAGE value="Add getDriver method to Driver class" />
-    <MESSAGE value="Add openUrl method to Common class" />
     <MESSAGE value="Implement test testLoginWithCorrectData and add Strings" />
     <MESSAGE value="Implement Privacity Confirmation" />
     <MESSAGE value="Add  acceptPrivacityConfirmation method to LoginPage class" />
@@ -329,6 +374,11 @@
     <MESSAGE value="Implement readParagraphName method" />
     <MESSAGE value="Add locator" />
     <MESSAGE value="Add assert to Test testLoginWithCorrectData" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add assert to Test testLoginWithCorrectData" />
+    <MESSAGE value="Add testLoginWithWrongPassword test" />
+    <MESSAGE value="Add SearchPage and SearchTest classes" />
+    <MESSAGE value="Implement testSearchinSearchLine test" />
+    <MESSAGE value="Implement SearchPage methods" />
+    <MESSAGE value="Add locators to Search class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add locators to Search class" />
   </component>
 </project>

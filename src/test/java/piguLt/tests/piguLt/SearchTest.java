@@ -1,5 +1,6 @@
 package piguLt.tests.piguLt;
 
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import piguLt.pages.piguLt.SearchPage;
@@ -19,18 +20,19 @@ public class SearchTest extends TestBase {
         String expectedItem = "60303 LEGO® City Advento kalendorius";
         String actualItem = null;
 
+        SearchPage.doubleClickOnSearchLine();
         SearchPage.enterItemName(expectedItem);
         SearchPage.clickOnSearchButton();
         SearchPage.waitForSearchPageLoad();
         SearchPage.clickOnSearchedItem();
         SearchPage.waitForItemPageLoad();
 
-
-
-
-
-
-
+        actualItem = SearchPage.readSearchedItemName();
+        Assert.assertTrue(actualItem.contains(expectedItem),
+                String.format("Actual [%s]; Expected [%s]",
+                        actualItem,
+                        expectedItem)
+        );
     }
 
 }
