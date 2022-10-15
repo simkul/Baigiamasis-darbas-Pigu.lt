@@ -13,5 +13,8 @@ public class LoginPage {
         Common.clickElement(Locators.PiguLt.Cookies.coockieAceptButton);}
 
 
+    public static void waitForLoginFormVisabilyti() {
+        Common.waitForElementChangeVisability(Locators.PiguLt.Login.loginForm);
+    }
 }
 
