@@ -54,4 +54,8 @@ public class GiftCardPage {
     public static void waitFor50EUGifCardPageLoad() {
         Common.waitForElementChangeVisability(Locators.PiguLt.GiftCard.giftCardFor50Eu);
     }
+
+    public static String readGiftCardName() {
+        return Common.getElementText(Locators.PiguLt.GiftCard.paragraphText);
+    }
 }
