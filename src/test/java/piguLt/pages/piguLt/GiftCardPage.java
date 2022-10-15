@@ -38,4 +38,20 @@ public class GiftCardPage {
     public static void clickToCloseFiltrai() {
         Common.clickElement(Locators.PiguLt.GiftCard.closeButton);
     }
+
+    public static void waitForFiltraiPage() {
+        Common.waitForElementChangeVisability(Locators.PiguLt.GiftCard.filtraiPage);
+    }
+
+    public static void waitForGiftCardPage() {
+        Common.waitForElementChangeVisability(Locators.PiguLt.GiftCard.aktyvusFiltraiText);
+    }
+
+    public static void clickOnNeededGiftCsrd() {
+        Common.clickElement(Locators.PiguLt.GiftCard.needeGiftCard);
+    }
+
+    public static void waitFor50EUGifCardPageLoad() {
+        Common.waitForElementChangeVisability(Locators.PiguLt.GiftCard.giftCardFor50Eu);
+    }
 }
