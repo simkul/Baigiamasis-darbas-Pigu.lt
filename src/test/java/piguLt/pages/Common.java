@@ -42,4 +42,13 @@ public class Common {
     public static String getElementText(By locator) {
         return getElement(locator).getText();
     }
+
+    public static void doubleClickByActions(By locator) {
+        WebElement element = getElement(locator);
+
+        Actions action = new Actions(Driver.getDriver());
+        action.moveToElement(element);
+        action.doubleClick();
+        action.perform();
+    }
 }
