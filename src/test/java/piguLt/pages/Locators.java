@@ -43,6 +43,12 @@ public class Locators {
             public static By filtraiButto = By.xpath("//*[@id=\"leafControl\"]/div[2]/section/div[6]/div/div[1]/a");
             public static By priceWindow = By.xpath("//*[@id=\"rangeSlider-price-range\"]/div[1]/div[2]/input");
             public static By closeButton = By.xpath("//*[@id=\"leafControl\"]/div[1]/div[1]/a/svg/path");
+            public static By filtraiPage = By.xpath("//*[@id=\"leafControl\"]/div[1]/div[1]/div");
+            public static By aktyvusFiltraiText = By.xpath("//*[@id=\"activeFilters\"]/div[1]");
+            public static By needeGiftCard = By.xpath("//*[@id=\"productBlock8439434\"]/div/div/div[3]/a/img");
+            public static By giftCardFor50Eu = By.xpath("//*[@id=\"gallery6388196\"]");
+
+
 
         }
     }
