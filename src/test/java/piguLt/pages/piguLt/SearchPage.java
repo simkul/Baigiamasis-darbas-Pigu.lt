@@ -13,6 +13,10 @@ public class SearchPage {
         Common.clickElement(Locators.PiguLt.Cookies.coockieAceptButton);
     }
 
+    public static void doubleClickOnSearchLine() {
+        Common.doubleClickByActions(Locators.PiguLt.Search.doubleClick);
+    }
+
     public static void enterItemName(String expectedItem) {
         Common.sendKeysToElement(
                 expectedItem,
@@ -34,6 +38,12 @@ public class SearchPage {
 
     public static void waitForItemPageLoad() {
         Common.waitForElementChangeVisability(Locators.PiguLt.Search.loadednNewPage);
+    }
+
+    public static String readSearchedItemName() {
+        return Common.getElementText(
+                Locators.PiguLt.Search.searchedItemName
+        );
     }
 }
 
