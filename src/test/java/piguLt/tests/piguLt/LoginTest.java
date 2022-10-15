@@ -1,5 +1,6 @@
 package piguLt.tests.piguLt;
 
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import piguLt.pages.piguLt.LoginPage;
@@ -29,9 +30,13 @@ public class LoginTest extends TestBase {
 
         actualRezult= LoginPage.readParafraphName();
 
-
-
-
+        Assert.assertTrue(actualRezult.contains(exeptedRezult),
+                String.format("Actual [%s]; Expected [%s]",
+                        actualRezult,
+                        exeptedRezult)
+        );
+        // atidaro ne profili o slapuku puslapi
     }
+
 
 }

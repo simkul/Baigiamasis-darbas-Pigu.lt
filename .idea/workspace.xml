@@ -4,14 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="637ad6e6-0261-4006-bdfd-63018649c199" name="Changes" comment="" />
+    <list default="true" id="637ad6e6-0261-4006-bdfd-63018649c199" name="Changes" comment="Add locator">
+      <change beforePath="$PROJECT_DIR$/src/test/java/piguLt/tests/piguLt/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/piguLt/tests/piguLt/LoginTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2GAk9s55LeYOhSpxEi6A4dmmDdt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -24,6 +36,31 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="LoginTest.testLoginWithCorrectData" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="piguLt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="piguLt.tests.piguLt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="piguLt.tests.piguLt" />
+      <option name="MAIN_CLASS_NAME" value="piguLt.tests.piguLt.LoginTest" />
+      <option name="METHOD_NAME" value="testLoginWithCorrectData" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.LoginTest.testLoginWithCorrectData" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -33,6 +70,238 @@
       <option name="presentableId" value="Default" />
       <updated>1665838630573</updated>
     </task>
+    <task id="LOCAL−00001" summary="Start project">
+      <created>1665838999147</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1665838999147</updated>
+    </task>
+    <task id="LOCAL−00002" summary="Add Common and Locatrs class to page package">
+      <created>1665839127549</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1665839127549</updated>
+    </task>
+    <task id="LOCAL−00003" summary="Add Driver class to utils package">
+      <created>1665839343979</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1665839343979</updated>
+    </task>
+    <task id="LOCAL−00004" summary="Add TestBase class to tests package">
+      <created>1665839472654</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1665839472654</updated>
+    </task>
+    <task id="LOCAL−00005" summary="Add TestBase class to tests package">
+      <created>1665839528697</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1665839528697</updated>
+    </task>
+    <task id="LOCAL−00006" summary="Add to TestBase class Before and after methods">
+      <created>1665840076659</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1665840076659</updated>
+    </task>
+    <task id="LOCAL−00007" summary="Add LoginPage and LoginTest class">
+      <created>1665840288714</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1665840288714</updated>
+    </task>
+    <task id="LOCAL−00008" summary="Implement LoginTest class extends TestBaseclass">
+      <created>1665840369759</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1665840369759</updated>
+    </task>
+    <task id="LOCAL−00009" summary="Implement LoginTest class extends TestBaseclass">
+      <created>1665840396866</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1665840396866</updated>
+    </task>
+    <task id="LOCAL−00010" summary="Add to setUp method .open()">
+      <created>1665840895831</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1665840895831</updated>
+    </task>
+    <task id="LOCAL−00011" summary="Add open method to LoginPage">
+      <created>1665840924340</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1665840924340</updated>
+    </task>
+    <task id="LOCAL−00012" summary="Add getDriver method to Driver class">
+      <created>1665840977116</created>
+      <option name="number" value="LOCAL−00012" />
+      <option name="presentableId" value="LOCAL−00012" />
+      <updated>1665840977116</updated>
+    </task>
+    <task id="LOCAL−00013" summary="Add openUrl method to Common class">
+      <created>1665841003397</created>
+      <option name="number" value="LOCAL−00013" />
+      <option name="presentableId" value="LOCAL−00013" />
+      <updated>1665841003397</updated>
+    </task>
+    <task id="LOCAL−00014" summary="Implement test testLoginWithCorrectData and add Strings">
+      <created>1665841380338</created>
+      <option name="number" value="LOCAL−00014" />
+      <option name="presentableId" value="LOCAL−00014" />
+      <updated>1665841380338</updated>
+    </task>
+    <task id="LOCAL−00015" summary="Implement Privacity Confirmation">
+      <created>1665842831076</created>
+      <option name="number" value="LOCAL−00015" />
+      <option name="presentableId" value="LOCAL−00015" />
+      <updated>1665842831076</updated>
+    </task>
+    <task id="LOCAL−00016" summary="Add  acceptPrivacityConfirmation method to LoginPage class">
+      <created>1665842905384</created>
+      <option name="number" value="LOCAL−00016" />
+      <option name="presentableId" value="LOCAL−00016" />
+      <updated>1665842905384</updated>
+    </task>
+    <task id="LOCAL−00017" summary="Add  locators to PiguLt/Cookies">
+      <created>1665842951394</created>
+      <option name="number" value="LOCAL−00017" />
+      <option name="presentableId" value="LOCAL−00017" />
+      <updated>1665842951394</updated>
+    </task>
+    <task id="LOCAL−00018" summary="Add  wait , clickElement and getElement methods to Common class">
+      <created>1665843017506</created>
+      <option name="number" value="LOCAL−00018" />
+      <option name="presentableId" value="LOCAL−00018" />
+      <updated>1665843017506</updated>
+    </task>
+    <task id="LOCAL−00019" summary="Implement wait method for Login form">
+      <created>1665844500704</created>
+      <option name="number" value="LOCAL−00019" />
+      <option name="presentableId" value="LOCAL−00019" />
+      <updated>1665844500704</updated>
+    </task>
+    <task id="LOCAL−00020" summary="Add wait method for Login form to Login page">
+      <created>1665844562574</created>
+      <option name="number" value="LOCAL−00020" />
+      <option name="presentableId" value="LOCAL−00020" />
+      <updated>1665844562574</updated>
+    </task>
+    <task id="LOCAL−00021" summary="Add login form locator">
+      <created>1665844584113</created>
+      <option name="number" value="LOCAL−00021" />
+      <option name="presentableId" value="LOCAL−00021" />
+      <updated>1665844584113</updated>
+    </task>
+    <task id="LOCAL−00022" summary="Implement enterEmail method to LoginTest">
+      <created>1665845031478</created>
+      <option name="number" value="LOCAL−00022" />
+      <option name="presentableId" value="LOCAL−00022" />
+      <updated>1665845031478</updated>
+    </task>
+    <task id="LOCAL−00023" summary="Add enertEmail method to LoginPage">
+      <created>1665845070919</created>
+      <option name="number" value="LOCAL−00023" />
+      <option name="presentableId" value="LOCAL−00023" />
+      <updated>1665845070919</updated>
+    </task>
+    <task id="LOCAL−00024" summary="Add inputEmail locator to Login class">
+      <created>1665845103481</created>
+      <option name="number" value="LOCAL−00024" />
+      <option name="presentableId" value="LOCAL−00024" />
+      <updated>1665845103481</updated>
+    </task>
+    <task id="LOCAL−00025" summary="Add sendKeysToElement method to Common class">
+      <created>1665845136797</created>
+      <option name="number" value="LOCAL−00025" />
+      <option name="presentableId" value="LOCAL−00025" />
+      <updated>1665845136798</updated>
+    </task>
+    <task id="LOCAL−00026" summary="Implement eneter password">
+      <created>1665845323246</created>
+      <option name="number" value="LOCAL−00026" />
+      <option name="presentableId" value="LOCAL−00026" />
+      <updated>1665845323246</updated>
+    </task>
+    <task id="LOCAL−00027" summary="Add enterPassword method to LofinPage">
+      <created>1665845366703</created>
+      <option name="number" value="LOCAL−00027" />
+      <option name="presentableId" value="LOCAL−00027" />
+      <updated>1665845366703</updated>
+    </task>
+    <task id="LOCAL−00028" summary="Add locator inputPassword to Login locators class">
+      <created>1665845397898</created>
+      <option name="number" value="LOCAL−00028" />
+      <option name="presentableId" value="LOCAL−00028" />
+      <updated>1665845397898</updated>
+    </task>
+    <task id="LOCAL−00029" summary="Implement clickElement to prisijungti button">
+      <created>1665845716882</created>
+      <option name="number" value="LOCAL−00029" />
+      <option name="presentableId" value="LOCAL−00029" />
+      <updated>1665845716882</updated>
+    </task>
+    <task id="LOCAL−00030" summary="Implement wait method">
+      <created>1665846006356</created>
+      <option name="number" value="LOCAL−00030" />
+      <option name="presentableId" value="LOCAL−00030" />
+      <updated>1665846006356</updated>
+    </task>
+    <task id="LOCAL−00031" summary="Implement readParagraphName method">
+      <created>1665846953801</created>
+      <option name="number" value="LOCAL−00031" />
+      <option name="presentableId" value="LOCAL−00031" />
+      <updated>1665846953801</updated>
+    </task>
+    <task id="LOCAL−00032" summary="Add locator">
+      <created>1665846969410</created>
+      <option name="number" value="LOCAL−00032" />
+      <option name="presentableId" value="LOCAL−00032" />
+      <updated>1665846969410</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add LoginPage and LoginTest class" />
+    <MESSAGE value="Implement LoginTest class extends TestBaseclass" />
+    <MESSAGE value="Add to setUp method .open()" />
+    <MESSAGE value="Add open method to LoginPage" />
+    <MESSAGE value="Add getDriver method to Driver class" />
+    <MESSAGE value="Add openUrl method to Common class" />
+    <MESSAGE value="Implement test testLoginWithCorrectData and add Strings" />
+    <MESSAGE value="Implement Privacity Confirmation" />
+    <MESSAGE value="Add  acceptPrivacityConfirmation method to LoginPage class" />
+    <MESSAGE value="Add  locators to PiguLt/Cookies" />
+    <MESSAGE value="Add  wait , clickElement and getElement methods to Common class" />
+    <MESSAGE value="Implement wait method for Login form" />
+    <MESSAGE value="Add wait method for Login form to Login page" />
+    <MESSAGE value="Add login form locator" />
+    <MESSAGE value="Implement enterEmail method to LoginTest" />
+    <MESSAGE value="Add enertEmail method to LoginPage" />
+    <MESSAGE value="Add inputEmail locator to Login class" />
+    <MESSAGE value="Add sendKeysToElement method to Common class" />
+    <MESSAGE value="Implement eneter password" />
+    <MESSAGE value="Add enterPassword method to LofinPage" />
+    <MESSAGE value="Add locator inputPassword to Login locators class" />
+    <MESSAGE value="Implement clickElement to prisijungti button" />
+    <MESSAGE value="Implement wait method" />
+    <MESSAGE value="Implement readParagraphName method" />
+    <MESSAGE value="Add locator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add locator" />
   </component>
 </project>
