@@ -20,10 +20,13 @@ public class Locators {
 
         }
         public static class Search{
+            public static By doubleClick = By.xpath("//*[@id=\"searchInput\"]");
             public static By inputItemname = By.xpath("//*[@id=\"searchInput\"]");
             public static By searchButton = By.xpath("//*[@id=\"main-search-form\"]/button[2]/i");
             public static By searchedItem = By.xpath("//*[@id=\"productBlock49514933\"]/div/div/div[4]");
             public static By loadednNewPage = By.xpath("//*[@id=\"galleryThumbnails44424153\"]/div[2]/div/div[1]/div/img");
+            public static By searchedItemName = By.xpath("//*[@id=\"productPage\"]/section[1]/div[1]/h1");
+
 
 
         }
