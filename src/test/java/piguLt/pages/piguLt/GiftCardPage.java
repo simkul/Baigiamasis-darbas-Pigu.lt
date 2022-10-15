@@ -13,4 +13,29 @@ public class GiftCardPage {
         Common.clickElement(Locators.PiguLt.Cookies.coockieAceptButton);
     }
 
+    public static void clickOnPiguLtKuponai() {
+        Common.clickElement(Locators.PiguLt.GiftCard.piguLtGiftCard);
+    }
+
+    public static void waitForPiguLtKuponaiPage() {
+        Common.waitForElementChangeVisability(Locators.PiguLt.GiftCard.waitLoadPage);
+    }
+
+    public static void clickOnFiltraiButton() {
+        Common.clickElement(Locators.PiguLt.GiftCard.filtraiButto);
+    }
+
+    public static void doubleClickOnPrice() {
+        Common.doubleClickByActions(Locators.PiguLt.GiftCard.priceWindow);
+    }
+
+    public static void enetrMaxPrice(String maxPrice) {
+        Common.sendKeysToElement(
+                maxPrice,
+                Locators.PiguLt.GiftCard.priceWindow);
+    }
+
+    public static void clickToCloseFiltrai() {
+        Common.clickElement(Locators.PiguLt.GiftCard.closeButton);
+    }
 }
