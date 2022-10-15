@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="637ad6e6-0261-4006-bdfd-63018649c199" name="Changes" comment="Add String to testSearchGiftCardAtPrice50Eu">
-      <change afterPath="$PROJECT_DIR$/src/test/java/piguLt/utils/TestListener.java" afterDir="false" />
+    <list default="true" id="637ad6e6-0261-4006-bdfd-63018649c199" name="Changes" comment="Implement TestListener method">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/piguLt/utils/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/piguLt/utils/TestListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +38,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.GiftCardTest">
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="piguLt.utils" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.GiftCardTest.testSearchGiftCardAtPrice50Eu">
     <configuration name="CartTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="piguLt" />
       <extension name="coverage">
@@ -89,6 +96,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GiftCardTest.testSearchGiftCardAtPrice50Eu" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="piguLt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="piguLt.tests.piguLt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="piguLt.tests.piguLt" />
+      <option name="MAIN_CLASS_NAME" value="piguLt.tests.piguLt.GiftCardTest" />
+      <option name="METHOD_NAME" value="testSearchGiftCardAtPrice50Eu" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SearchTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="piguLt" />
       <extension name="coverage">
@@ -106,31 +131,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchTest.testSearchinSearchLine" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="piguLt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="piguLt.tests.piguLt.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="piguLt.tests.piguLt" />
-      <option name="MAIN_CLASS_NAME" value="piguLt.tests.piguLt.SearchTest" />
-      <option name="METHOD_NAME" value="testSearchinSearchLine" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GiftCardTest.testSearchGiftCardAtPrice50Eu" />
         <item itemvalue="TestNG.GiftCardTest" />
         <item itemvalue="TestNG.CartTest" />
         <item itemvalue="TestNG.CartTest.testAddToCartItem" />
         <item itemvalue="TestNG.SearchTest" />
-        <item itemvalue="TestNG.SearchTest.testSearchinSearchLine" />
       </list>
     </recent_temporary>
   </component>
@@ -142,18 +149,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665838630573</updated>
-    </task>
-    <task id="LOCAL−00013" summary="Add openUrl method to Common class">
-      <created>1665841003397</created>
-      <option name="number" value="LOCAL−00013" />
-      <option name="presentableId" value="LOCAL−00013" />
-      <updated>1665841003397</updated>
-    </task>
-    <task id="LOCAL−00014" summary="Implement test testLoginWithCorrectData and add Strings">
-      <created>1665841380338</created>
-      <option name="number" value="LOCAL−00014" />
-      <option name="presentableId" value="LOCAL−00014" />
-      <updated>1665841380338</updated>
     </task>
     <task id="LOCAL−00015" summary="Implement Privacity Confirmation">
       <created>1665842831076</created>
@@ -437,7 +432,19 @@
       <option name="presentableId" value="LOCAL−00061" />
       <updated>1665859207347</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL−00062" summary="Implement TestListener">
+      <created>1665860152346</created>
+      <option name="number" value="LOCAL−00062" />
+      <option name="presentableId" value="LOCAL−00062" />
+      <updated>1665860152346</updated>
+    </task>
+    <task id="LOCAL−00063" summary="Implement TestListener method">
+      <created>1665860218695</created>
+      <option name="number" value="LOCAL−00063" />
+      <option name="presentableId" value="LOCAL−00063" />
+      <updated>1665860218695</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -452,8 +459,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement SearchPage methods" />
-    <MESSAGE value="Add locators to Search class" />
     <MESSAGE value="Add Assert to SearchPage" />
     <MESSAGE value="Add doubleClick method toSearchPage" />
     <MESSAGE value="Add doubleClick locator" />
@@ -477,6 +482,8 @@
     <MESSAGE value="Add paragraphText locator" />
     <MESSAGE value="Add readGiftCardName method to GiftCardPage" />
     <MESSAGE value="Add String to testSearchGiftCardAtPrice50Eu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add String to testSearchGiftCardAtPrice50Eu" />
+    <MESSAGE value="Implement TestListener" />
+    <MESSAGE value="Implement TestListener method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement TestListener method" />
   </component>
 </project>

@@ -1,11 +1,13 @@
 package piguLt.utils;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
 import java.io.File;
+import java.io.IOException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.UUID;
@@ -29,5 +31,12 @@ public class TestListener implements ITestListener {
                 "/screenshot" + dateTime +"_"+ UUID.randomUUID()+ ".png");
 
 
+        try {
+            FileUtils.copyFile(screenshotRaw,screenshotFile);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
     }
 }
