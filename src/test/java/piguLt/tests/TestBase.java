@@ -1,4 +1,4 @@
-package piguLt.texts;
+package piguLt.tests;
 
 public class TestBase {
 }
