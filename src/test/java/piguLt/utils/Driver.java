@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.time.Duration;
+import java.util.Map;
 
 public class Driver {
     private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
@@ -26,5 +27,9 @@ public class Driver {
     }
 
     public static void close() {driver.get().quit();
+    }
+
+    public static WebDriver getDriver() {
+        return driver.get();
     }
 }
