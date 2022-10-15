@@ -47,6 +47,7 @@ public class Locators {
             public static By aktyvusFiltraiText = By.xpath("//*[@id=\"activeFilters\"]/div[1]");
             public static By needeGiftCard = By.xpath("//*[@id=\"productBlock8439434\"]/div/div/div[3]/a/img");
             public static By giftCardFor50Eu = By.xpath("//*[@id=\"gallery6388196\"]");
+            public static By paragraphText = By.xpath("//*[@id=\"productPage\"]/section[1]/div[1]/h1");
 
 
 
