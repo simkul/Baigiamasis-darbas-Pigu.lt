@@ -1,5 +1,6 @@
 package piguLt.tests.piguLt;
 
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import piguLt.pages.piguLt.CartPage;
@@ -15,6 +16,10 @@ public class CartTest extends TestBase {
 
     @Test
     private void testAddToCartItem(){
+        String neededAmount = " 5";
+        String expectedItem = "Tualetinis vanduo Dolce & Gabbana 3 L'Imperatrice EDT moterims 100 ml";
+        String actualItem = null;
+
 
 
     }
