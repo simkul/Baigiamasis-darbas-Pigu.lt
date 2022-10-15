@@ -22,6 +22,7 @@ public class LoginTest extends TestBase {
         String actualRezult = null;
 
         LoginPage.waitForLoginFormVisabilyti();
+        LoginPage.enetrEmail(insertEmail);
 
 
     }
