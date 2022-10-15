@@ -16,6 +16,8 @@ public class Locators {
             public static By prisijungtiButton = By.xpath("//*[@id=\"loginModal\"]/div[1]/div[1]/form/div[5]/input");
             public static  By profilePage = By.xpath("/html/body/div[10]/div/section[2]/div/h1");
             public static By paragraphName = By.xpath("/html/body/div[10]/div/section[2]/div/h1");
+            public static By errorMessage = By.xpath ("<div class=\"error-message\">Neteisingi prisijungimo duomenys</div>");
+
 
 
 

@@ -37,6 +37,26 @@ public class LoginTest extends TestBase {
         );
         // atidaro ne profili o slapuku puslapi
     }
+    @Test
+    private void testLoginWithWrongPassword(){
+        String insertEmail = "apallinarija@gmail.com";
+        String insertWrongPassword = "12346";
+        String exeptedMessage = "Neteisingi prisijungimo duomenys";
+        String actualMessage = null;
+
+        LoginPage.waitForLoginFormVisabilyti();
+        LoginPage.enetrEmail(insertEmail);
+        LoginPage.enterWrongPasswor(insertWrongPassword);
+        LoginPage.clickOnPrisijungtiButton();
+        LoginPage.waitForErrorMassage();
+
+        actualMessage = LoginPage.readErrorMessage();
+        Assert.assertTrue(actualMessage.contains(exeptedMessage),
+                String.format("Actual [%s]; Expected [%s]",
+                        actualMessage,
+                        exeptedMessage)
+        );
+    }
 
 
 }

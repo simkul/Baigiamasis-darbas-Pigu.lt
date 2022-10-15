@@ -45,5 +45,20 @@ public class LoginPage {
         return Common.getElementText(
                 Locators.PiguLt.Login.paragraphName);
     }
+
+    public static void enterWrongPasswor(String insertWrongPassword) {
+        Common.sendKeysToElement(
+                insertWrongPassword,
+                Locators.PiguLt.Login.inputPassword);
+    }
+
+    public static void waitForErrorMassage() {
+        Common.waitForElementChangeVisability(Locators.PiguLt.Login.errorMessage);
+    }
+
+    public static String readErrorMessage() {
+        return Common.getElementText(
+                Locators.PiguLt.Login.errorMessage);
+    }
 }
 

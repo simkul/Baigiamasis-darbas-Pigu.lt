@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="637ad6e6-0261-4006-bdfd-63018649c199" name="Changes" comment="Add locator">
+    <list default="true" id="637ad6e6-0261-4006-bdfd-63018649c199" name="Changes" comment="Add assert to Test testLoginWithCorrectData">
+      <change beforePath="$PROJECT_DIR$/src/test/java/piguLt/pages/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/piguLt/pages/Locators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/piguLt/pages/piguLt/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/piguLt/pages/piguLt/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/piguLt/tests/piguLt/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/piguLt/tests/piguLt/LoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +38,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.LoginTest.testLoginWithWrongPassword">
     <configuration name="LoginTest.testLoginWithCorrectData" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="piguLt" />
       <extension name="coverage">
@@ -55,8 +57,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoginTest.testLoginWithWrongPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="piguLt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="piguLt.tests.piguLt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="piguLt.tests.piguLt" />
+      <option name="MAIN_CLASS_NAME" value="piguLt.tests.piguLt.LoginTest" />
+      <option name="METHOD_NAME" value="testLoginWithWrongPassword" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTest.testLoginWithWrongPassword" />
         <item itemvalue="TestNG.LoginTest.testLoginWithCorrectData" />
       </list>
     </recent_temporary>
@@ -262,7 +283,13 @@
       <option name="presentableId" value="LOCAL−00032" />
       <updated>1665846969410</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL−00033" summary="Add assert to Test testLoginWithCorrectData">
+      <created>1665847146935</created>
+      <option name="number" value="LOCAL−00033" />
+      <option name="presentableId" value="LOCAL−00033" />
+      <updated>1665847146935</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -277,7 +304,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add LoginPage and LoginTest class" />
     <MESSAGE value="Implement LoginTest class extends TestBaseclass" />
     <MESSAGE value="Add to setUp method .open()" />
     <MESSAGE value="Add open method to LoginPage" />
@@ -302,6 +328,7 @@
     <MESSAGE value="Implement wait method" />
     <MESSAGE value="Implement readParagraphName method" />
     <MESSAGE value="Add locator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add locator" />
+    <MESSAGE value="Add assert to Test testLoginWithCorrectData" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add assert to Test testLoginWithCorrectData" />
   </component>
 </project>
