@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="637ad6e6-0261-4006-bdfd-63018649c199" name="Changes" comment="Add locators to Search class">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/piguLt/pages/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/piguLt/pages/Locators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/piguLt/pages/piguLt/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/piguLt/pages/piguLt/SearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/piguLt/tests/piguLt/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/piguLt/tests/piguLt/SearchTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="637ad6e6-0261-4006-bdfd-63018649c199" name="Changes" comment="Add doubleClick by Action method do Common class" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +34,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.SearchTest.testSearchinSearchLine">
+  <component name="RunManager" selected="TestNG.SearchTest">
     <configuration name="LoginTest.testLoginWithCorrectData" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="piguLt" />
       <extension name="coverage">
@@ -76,6 +71,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="piguLt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="piguLt.tests.piguLt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="piguLt.tests.piguLt" />
+      <option name="MAIN_CLASS_NAME" value="piguLt.tests.piguLt.SearchTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SearchTest.testSearchinSearchLine" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="piguLt" />
       <extension name="coverage">
@@ -96,6 +108,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SearchTest" />
         <item itemvalue="TestNG.SearchTest.testSearchinSearchLine" />
         <item itemvalue="TestNG.LoginTest.testLoginWithWrongPassword" />
         <item itemvalue="TestNG.LoginTest.testLoginWithCorrectData" />
@@ -339,7 +352,31 @@
       <option name="presentableId" value="LOCAL−00038" />
       <updated>1665850916121</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL−00039" summary="Add Assert to SearchPage">
+      <created>1665852203908</created>
+      <option name="number" value="LOCAL−00039" />
+      <option name="presentableId" value="LOCAL−00039" />
+      <updated>1665852203908</updated>
+    </task>
+    <task id="LOCAL−00040" summary="Add doubleClick method toSearchPage">
+      <created>1665852237957</created>
+      <option name="number" value="LOCAL−00040" />
+      <option name="presentableId" value="LOCAL−00040" />
+      <updated>1665852237957</updated>
+    </task>
+    <task id="LOCAL−00041" summary="Add doubleClick locator">
+      <created>1665852254000</created>
+      <option name="number" value="LOCAL−00041" />
+      <option name="presentableId" value="LOCAL−00041" />
+      <updated>1665852254000</updated>
+    </task>
+    <task id="LOCAL−00042" summary="Add doubleClick by Action method do Common class">
+      <created>1665852279055</created>
+      <option name="number" value="LOCAL−00042" />
+      <option name="presentableId" value="LOCAL−00042" />
+      <updated>1665852279055</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -354,10 +391,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement test testLoginWithCorrectData and add Strings" />
-    <MESSAGE value="Implement Privacity Confirmation" />
-    <MESSAGE value="Add  acceptPrivacityConfirmation method to LoginPage class" />
-    <MESSAGE value="Add  locators to PiguLt/Cookies" />
     <MESSAGE value="Add  wait , clickElement and getElement methods to Common class" />
     <MESSAGE value="Implement wait method for Login form" />
     <MESSAGE value="Add wait method for Login form to Login page" />
@@ -379,6 +412,10 @@
     <MESSAGE value="Implement testSearchinSearchLine test" />
     <MESSAGE value="Implement SearchPage methods" />
     <MESSAGE value="Add locators to Search class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add locators to Search class" />
+    <MESSAGE value="Add Assert to SearchPage" />
+    <MESSAGE value="Add doubleClick method toSearchPage" />
+    <MESSAGE value="Add doubleClick locator" />
+    <MESSAGE value="Add doubleClick by Action method do Common class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add doubleClick by Action method do Common class" />
   </component>
 </project>
