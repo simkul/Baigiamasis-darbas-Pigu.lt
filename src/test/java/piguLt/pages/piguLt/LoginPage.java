@@ -34,5 +34,9 @@ public class LoginPage {
     public static void clickOnPrisijungtiButton() {
         Common.clickElement(Locators.PiguLt.Login.prisijungtiButton);
     }
+
+    public static void waitForProfilePageLoad() {
+        Common.waitForElementChangeVisability(Locators.PiguLt.Login.profilePage);
+    }
 }
 

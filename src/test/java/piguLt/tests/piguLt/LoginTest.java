@@ -25,6 +25,8 @@ public class LoginTest extends TestBase {
         LoginPage.enetrEmail(insertEmail);
         LoginPage.enerPassword(insertPassword);
         LoginPage.clickOnPrisijungtiButton();
+        LoginPage.waitForProfilePageLoad();
+
 
 
 
