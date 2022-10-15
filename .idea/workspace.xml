@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="637ad6e6-0261-4006-bdfd-63018649c199" name="Changes" comment="Add doubleClick by Action method do Common class" />
+    <list default="true" id="637ad6e6-0261-4006-bdfd-63018649c199" name="Changes" comment="Add open method">
+      <change beforePath="$PROJECT_DIR$/src/test/java/piguLt/pages/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/piguLt/pages/Locators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/piguLt/pages/piguLt/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/piguLt/pages/piguLt/CartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/piguLt/tests/piguLt/CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/piguLt/tests/piguLt/CartTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +38,25 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.SearchTest">
+  <component name="RunManager" selected="TestNG.CartTest.testAddToCartItem">
+    <configuration name="CartTest.testAddToCartItem" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="piguLt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="piguLt.tests.piguLt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="piguLt.tests.piguLt" />
+      <option name="MAIN_CLASS_NAME" value="piguLt.tests.piguLt.CartTest" />
+      <option name="METHOD_NAME" value="testAddToCartItem" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTest.testLoginWithCorrectData" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="piguLt" />
       <extension name="coverage">
@@ -108,6 +130,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CartTest.testAddToCartItem" />
         <item itemvalue="TestNG.SearchTest" />
         <item itemvalue="TestNG.SearchTest.testSearchinSearchLine" />
         <item itemvalue="TestNG.LoginTest.testLoginWithWrongPassword" />
@@ -376,7 +399,19 @@
       <option name="presentableId" value="LOCAL−00042" />
       <updated>1665852279055</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL−00043" summary="Add CartTest and CartPage classe">
+      <created>1665852555361</created>
+      <option name="number" value="LOCAL−00043" />
+      <option name="presentableId" value="LOCAL−00043" />
+      <updated>1665852555361</updated>
+    </task>
+    <task id="LOCAL−00044" summary="Add open method">
+      <created>1665852851919</created>
+      <option name="number" value="LOCAL−00044" />
+      <option name="presentableId" value="LOCAL−00044" />
+      <updated>1665852851919</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -391,8 +426,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add  wait , clickElement and getElement methods to Common class" />
-    <MESSAGE value="Implement wait method for Login form" />
     <MESSAGE value="Add wait method for Login form to Login page" />
     <MESSAGE value="Add login form locator" />
     <MESSAGE value="Implement enterEmail method to LoginTest" />
@@ -416,6 +449,8 @@
     <MESSAGE value="Add doubleClick method toSearchPage" />
     <MESSAGE value="Add doubleClick locator" />
     <MESSAGE value="Add doubleClick by Action method do Common class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add doubleClick by Action method do Common class" />
+    <MESSAGE value="Add CartTest and CartPage classe" />
+    <MESSAGE value="Add open method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add open method" />
   </component>
 </project>

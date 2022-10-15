@@ -29,5 +29,12 @@ public class CartTest extends TestBase {
         CartPage.clickOnCartIcon();
         CartPage.waitForCarPageLoad();
 
+        actualItem = CartPage.readItemName();
+
+        Assert.assertTrue(actualItem.contains(expectedItem),
+                String.format("Actual [%s]; Expected [%s]",
+                        actualItem,
+                        expectedItem)
+        );
     }
 }
