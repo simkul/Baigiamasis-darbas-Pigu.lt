@@ -1,5 +1,6 @@
 package piguLt.tests.piguLt;
 
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import piguLt.pages.piguLt.GiftCardPage;
@@ -15,6 +16,8 @@ public class GiftCardTest extends TestBase {
     }
     @Test
     private void testSearchGiftCardAtPrice50Eu(){
+        String expectedFind ="El. Dovanų kuponas, €50";
+        String actualfind = null;
         String maxPrice = "50";
 
         GiftCardPage.clickOnPiguLtKuponai();
@@ -27,6 +30,13 @@ public class GiftCardTest extends TestBase {
         GiftCardPage.waitForGiftCardPage();
         GiftCardPage.clickOnNeededGiftCsrd();
         GiftCardPage.waitFor50EUGifCardPageLoad();
+
+        actualfind = GiftCardPage.readGiftCardName();
+        Assert.assertTrue(actualfind.contains(expectedFind),
+                String.format("Actual [%s]; Expected [%s]",
+                        actualfind,
+                        expectedFind)
+        );
 
 
 
