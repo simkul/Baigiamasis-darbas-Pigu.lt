@@ -11,6 +11,7 @@ public class LoginTest extends TestBase {
     public void setUp() {
         super.setUp();
         LoginPage.open("https://pigu.lt/lt/u/login");
+        LoginPage.acceptPrivacyConfirmation();
     }
 
     @Test
