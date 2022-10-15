@@ -20,6 +20,10 @@ public class LoginTest extends TestBase {
         String insertPassword = "12345";
         String exeptedRezult = "Mano profilis";
         String actualRezult = null;
+
+        LoginPage.waitForLoginFormVisabilyti();
+
+
     }
 
 }
