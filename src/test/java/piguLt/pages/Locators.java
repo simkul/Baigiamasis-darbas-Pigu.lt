@@ -36,8 +36,13 @@ public class Locators {
             public static By cartPage = By.xpath("//*[@id=\"sliceBlock124274801\"]");
             public static By itemName = By.xpath("//*[@id=\"productSliceBlock363493696\"]/td[2]/div[1]");
 
-
-
+        }
+        public static class GiftCard{
+            public static By piguLtGiftCard = By.xpath("//*[@id=\"categoriesGrid\"]/div[2]/a/p");
+            public static By waitLoadPage = By.xpath("//*[@id=\"categoryBranch\"]/div");
+            public static By filtraiButto = By.xpath("//*[@id=\"leafControl\"]/div[2]/section/div[6]/div/div[1]/a");
+            public static By priceWindow = By.xpath("//*[@id=\"rangeSlider-price-range\"]/div[1]/div[2]/input");
+            public static By closeButton = By.xpath("//*[@id=\"leafControl\"]/div[1]/div[1]/a/svg/path");
 
         }
     }
