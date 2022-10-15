@@ -1,5 +1,6 @@
 package piguLt.pages.piguLt;
 
+import org.openqa.selenium.WebElement;
 import piguLt.pages.Common;
 import piguLt.pages.Locators;
 
@@ -37,6 +38,12 @@ public class LoginPage {
 
     public static void waitForProfilePageLoad() {
         Common.waitForElementChangeVisability(Locators.PiguLt.Login.profilePage);
+    }
+
+
+    public static String readParafraphName() {
+        return Common.getElementText(
+                Locators.PiguLt.Login.paragraphName);
     }
 }
 

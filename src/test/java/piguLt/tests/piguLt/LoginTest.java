@@ -27,6 +27,8 @@ public class LoginTest extends TestBase {
         LoginPage.clickOnPrisijungtiButton();
         LoginPage.waitForProfilePageLoad();
 
+        actualRezult= LoginPage.readParafraphName();
+
 
 
 
