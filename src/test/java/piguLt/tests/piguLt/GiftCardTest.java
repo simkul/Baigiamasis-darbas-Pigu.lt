@@ -20,6 +20,7 @@ public class GiftCardTest extends TestBase {
         String actualfind = null;
         String maxPrice = "50";
 
+        GiftCardPage.waitForPage();
         GiftCardPage.clickOnPiguLtKuponai();
         GiftCardPage.waitForPiguLtKuponaiPage();
         GiftCardPage.clickOnFiltraiButton();

@@ -13,6 +13,10 @@ public class GiftCardPage {
         Common.clickElement(Locators.PiguLt.Cookies.coockieAceptButton);
     }
 
+    public static void waitForPage() {
+        Common.waitForElementChangeVisability(Locators.PiguLt.GiftCard.piguLtGiftCard);
+    }
+
     public static void clickOnPiguLtKuponai() {
         Common.clickElement(Locators.PiguLt.GiftCard.piguLtGiftCard);
     }
