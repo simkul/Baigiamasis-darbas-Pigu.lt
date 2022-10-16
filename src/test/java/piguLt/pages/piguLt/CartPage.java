@@ -44,4 +44,8 @@ public class CartPage {
     public static String readItemName() {
         return Common.getElementText(Locators.PiguLt.Cart.itemName);
     }
+
+    public static void waitForPriceWindow() {
+        Common.waitForElementChangeVisability(Locators.PiguLt.Cart.waitSection);
+    }
 }
