@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="637ad6e6-0261-4006-bdfd-63018649c199" name="Changes" comment="Add TestListener method to utils package">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/piguLt/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/piguLt/tests/TestBase.java" afterDir="false" />
+    <list default="true" id="637ad6e6-0261-4006-bdfd-63018649c199" name="Changes" comment="Add README.md file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,24 +148,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665838630573</updated>
-    </task>
-    <task id="LOCAL−00016" summary="Add  acceptPrivacityConfirmation method to LoginPage class">
-      <created>1665842905384</created>
-      <option name="number" value="LOCAL−00016" />
-      <option name="presentableId" value="LOCAL−00016" />
-      <updated>1665842905384</updated>
-    </task>
-    <task id="LOCAL−00017" summary="Add  locators to PiguLt/Cookies">
-      <created>1665842951394</created>
-      <option name="number" value="LOCAL−00017" />
-      <option name="presentableId" value="LOCAL−00017" />
-      <updated>1665842951394</updated>
-    </task>
-    <task id="LOCAL−00018" summary="Add  wait , clickElement and getElement methods to Common class">
-      <created>1665843017506</created>
-      <option name="number" value="LOCAL−00018" />
-      <option name="presentableId" value="LOCAL−00018" />
-      <updated>1665843017506</updated>
     </task>
     <task id="LOCAL−00019" summary="Implement wait method for Login form">
       <created>1665844500704</created>
@@ -443,7 +425,25 @@
       <option name="presentableId" value="LOCAL−00064" />
       <updated>1665860989871</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL−00065" summary="Add @listeners to TestBase">
+      <created>1665861059535</created>
+      <option name="number" value="LOCAL−00065" />
+      <option name="presentableId" value="LOCAL−00065" />
+      <updated>1665861059535</updated>
+    </task>
+    <task id="LOCAL−00066" summary="Add to gitignore screenshot">
+      <created>1665861077635</created>
+      <option name="number" value="LOCAL−00066" />
+      <option name="presentableId" value="LOCAL−00066" />
+      <updated>1665861077635</updated>
+    </task>
+    <task id="LOCAL−00067" summary="Add README.md file">
+      <created>1665861224161</created>
+      <option name="number" value="LOCAL−00067" />
+      <option name="presentableId" value="LOCAL−00067" />
+      <updated>1665861224161</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -458,9 +458,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add doubleClick method toSearchPage" />
-    <MESSAGE value="Add doubleClick locator" />
-    <MESSAGE value="Add doubleClick by Action method do Common class" />
     <MESSAGE value="Add CartTest and CartPage classe" />
     <MESSAGE value="Add open method" />
     <MESSAGE value="Add Locators to Cart class" />
@@ -483,6 +480,9 @@
     <MESSAGE value="Implement TestListener" />
     <MESSAGE value="Implement TestListener method" />
     <MESSAGE value="Add TestListener method to utils package" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add TestListener method to utils package" />
+    <MESSAGE value="Add @listeners to TestBase" />
+    <MESSAGE value="Add to gitignore screenshot" />
+    <MESSAGE value="Add README.md file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add README.md file" />
   </component>
 </project>
