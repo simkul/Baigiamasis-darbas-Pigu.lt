@@ -17,11 +17,12 @@ public class CartTest extends TestBase {
 
     @Test
     private void testAddToCartItem(){
-        String neededAmount = " 5";
+        String neededAmount = "1";
         String expectedItem = "Tualetinis vanduo Dolce & Gabbana 3 L'Imperatrice EDT moterims 100 ml";
         String actualItem = null;
 
 
+        CartPage.waitForPriceWindow();
         CartPage.clickDouble();
         CartPage.enterNeededAmount(neededAmount);
         CartPage.clickOnAddButto();
