@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="637ad6e6-0261-4006-bdfd-63018649c199" name="Changes" comment="Add README.md file">
+    <list default="true" id="637ad6e6-0261-4006-bdfd-63018649c199" name="Changes" comment="Implement paragraphName locator">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/piguLt/pages/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/piguLt/pages/Locators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/piguLt/pages/piguLt/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/piguLt/pages/piguLt/CartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/piguLt/pages/piguLt/GiftCardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/piguLt/pages/piguLt/GiftCardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/piguLt/pages/piguLt/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/piguLt/pages/piguLt/SearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/piguLt/tests/piguLt/CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/piguLt/tests/piguLt/CartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/piguLt/tests/piguLt/GiftCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/piguLt/tests/piguLt/GiftCardTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,23 +48,6 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.GiftCardTest.testSearchGiftCardAtPrice50Eu">
-    <configuration name="CartTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="piguLt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="piguLt.tests.piguLt.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="piguLt.tests.piguLt" />
-      <option name="MAIN_CLASS_NAME" value="piguLt.tests.piguLt.CartTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CartTest.testAddToCartItem" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="piguLt" />
       <extension name="coverage">
@@ -113,7 +101,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest.testLoginWithWrongPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="piguLt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="piguLt.tests.piguLt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="piguLt.tests.piguLt" />
+      <option name="MAIN_CLASS_NAME" value="piguLt.tests.piguLt.LoginTest" />
+      <option name="METHOD_NAME" value="testLoginWithWrongPassword" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchTest.testSearchinSearchLine" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="piguLt" />
       <extension name="coverage">
         <pattern>
@@ -123,7 +129,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="piguLt.tests.piguLt" />
       <option name="MAIN_CLASS_NAME" value="piguLt.tests.piguLt.SearchTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="testSearchinSearchLine" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -133,10 +140,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.GiftCardTest.testSearchGiftCardAtPrice50Eu" />
-        <item itemvalue="TestNG.GiftCardTest" />
-        <item itemvalue="TestNG.CartTest" />
+        <item itemvalue="TestNG.SearchTest.testSearchinSearchLine" />
         <item itemvalue="TestNG.CartTest.testAddToCartItem" />
-        <item itemvalue="TestNG.SearchTest" />
+        <item itemvalue="TestNG.LoginTest.testLoginWithWrongPassword" />
+        <item itemvalue="TestNG.GiftCardTest" />
       </list>
     </recent_temporary>
   </component>
@@ -148,18 +155,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665838630573</updated>
-    </task>
-    <task id="LOCAL−00019" summary="Implement wait method for Login form">
-      <created>1665844500704</created>
-      <option name="number" value="LOCAL−00019" />
-      <option name="presentableId" value="LOCAL−00019" />
-      <updated>1665844500704</updated>
-    </task>
-    <task id="LOCAL−00020" summary="Add wait method for Login form to Login page">
-      <created>1665844562574</created>
-      <option name="number" value="LOCAL−00020" />
-      <option name="presentableId" value="LOCAL−00020" />
-      <updated>1665844562574</updated>
     </task>
     <task id="LOCAL−00021" summary="Add login form locator">
       <created>1665844584113</created>
@@ -443,7 +438,19 @@
       <option name="presentableId" value="LOCAL−00067" />
       <updated>1665861224161</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL−00068" summary="Implement README.md file">
+      <created>1665902399603</created>
+      <option name="number" value="LOCAL−00068" />
+      <option name="presentableId" value="LOCAL−00068" />
+      <updated>1665902399603</updated>
+    </task>
+    <task id="LOCAL−00069" summary="Implement paragraphName locator">
+      <created>1665903097733</created>
+      <option name="number" value="LOCAL−00069" />
+      <option name="presentableId" value="LOCAL−00069" />
+      <updated>1665903097733</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -458,8 +465,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add CartTest and CartPage classe" />
-    <MESSAGE value="Add open method" />
     <MESSAGE value="Add Locators to Cart class" />
     <MESSAGE value="Add string to CartTest class" />
     <MESSAGE value="Add methods to CartTest" />
@@ -483,6 +488,8 @@
     <MESSAGE value="Add @listeners to TestBase" />
     <MESSAGE value="Add to gitignore screenshot" />
     <MESSAGE value="Add README.md file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add README.md file" />
+    <MESSAGE value="Implement README.md file" />
+    <MESSAGE value="Implement paragraphName locator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement paragraphName locator" />
   </component>
 </project>

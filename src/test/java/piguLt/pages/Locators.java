@@ -28,6 +28,7 @@ public class Locators {
             public static By searchedItemName = By.xpath("//*[@id=\"productPage\"]/section[1]/div[1]/h1");
         }
         public static class Cart{
+            public static  By waitSection = By.xpath("//*[@id=\"productPage\"]/section[1]/div[1]/div[2]/div[3]/div[5]/div[2]/div/input");
             public static By section = By.xpath("//*[@id=\"productPage\"]/section[1]/div[1]/div[2]/div[3]/div[5]/div[2]/div/input");
             public static By AddToCartButton = By.xpath("//*[@id=\"productPage\"]/section[1]/div[1]/div[2]/div[3]/div[5]/div[2]/button");
             public static By cartForm = By.xpath("//*[@id=\"modal\"]/div/div/div/div[2]");
