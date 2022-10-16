@@ -33,7 +33,8 @@ public class SearchPage {
     }
 
     public static void clickOnSearchedItem() {
-        Common.clickElement(Locators.PiguLt.Search.searchedItem);
+        Common.doubleClickByActions(Locators.PiguLt.Search.searchedItem);
+
     }
 
     public static void waitForItemPageLoad() {
