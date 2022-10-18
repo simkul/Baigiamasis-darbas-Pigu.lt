@@ -35,7 +35,7 @@ public class LoginTest extends TestBase {
                         actualRezult,
                         exeptedRezult)
         );
-        // atidaro ne profili o slapuku puslapi
+
     }
     @Test
     private void testLoginWithWrongPassword(){
