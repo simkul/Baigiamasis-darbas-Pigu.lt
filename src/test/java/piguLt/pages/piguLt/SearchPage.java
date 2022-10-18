@@ -14,13 +14,13 @@ public class SearchPage {
     }
 
     public static void doubleClickOnSearchLine() {
-        Common.doubleClickByActions(Locators.PiguLt.Search.doubleClick);
+        Common.doubleClickByActions(Locators.PiguLt.Search.searchLine);
     }
 
     public static void enterItemName(String expectedItem) {
         Common.sendKeysToElement(
                 expectedItem,
-                Locators.PiguLt.Search.inputItemname
+                Locators.PiguLt.Search.searchLine
         );
     }
 
@@ -32,18 +32,9 @@ public class SearchPage {
         Common.waitForElementChangeVisability(Locators.PiguLt.Search.searchedItem);
     }
 
-    public static void clickOnSearchedItem() {
-        Common.doubleClickByActions(Locators.PiguLt.Search.searchedItem);
-
-    }
-
-    public static void waitForItemPageLoad() {
-        Common.waitForElementChangeVisability(Locators.PiguLt.Search.loadednNewPage);
-    }
-
     public static String readSearchedItemName() {
         return Common.getElementText(
-                Locators.PiguLt.Search.searchedItemName
+                Locators.PiguLt.Search.searchedItem
         );
     }
 }
