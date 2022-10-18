@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="637ad6e6-0261-4006-bdfd-63018649c199" name="Changes" comment="Implement paragraphName locator">
+    <list default="true" id="637ad6e6-0261-4006-bdfd-63018649c199" name="Changes" comment="Implement enterEmail method , add wait step">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/piguLt/pages/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/piguLt/pages/Common.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/piguLt/pages/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/piguLt/pages/Locators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/piguLt/pages/piguLt/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/piguLt/pages/piguLt/CartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/piguLt/pages/piguLt/GiftCardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/piguLt/pages/piguLt/GiftCardPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/piguLt/pages/piguLt/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/piguLt/pages/piguLt/SearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/piguLt/tests/piguLt/CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/piguLt/tests/piguLt/CartTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/piguLt/tests/piguLt/GiftCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/piguLt/tests/piguLt/GiftCardTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,19 +33,19 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="piguLt.utils" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GiftCardTest.testSearchGiftCardAtPrice50Eu">
-    <configuration name="CartTest.testAddToCartItem" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.SearchTest">
+    <configuration name="CartTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="piguLt" />
       <extension name="coverage">
         <pattern>
@@ -58,8 +55,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="piguLt.tests.piguLt" />
       <option name="MAIN_CLASS_NAME" value="piguLt.tests.piguLt.CartTest" />
-      <option name="METHOD_NAME" value="testAddToCartItem" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -83,7 +79,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GiftCardTest.testSearchGiftCardAtPrice50Eu" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="piguLt" />
       <extension name="coverage">
         <pattern>
@@ -92,9 +88,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="piguLt.tests.piguLt" />
-      <option name="MAIN_CLASS_NAME" value="piguLt.tests.piguLt.GiftCardTest" />
-      <option name="METHOD_NAME" value="testSearchGiftCardAtPrice50Eu" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="piguLt.tests.piguLt.LoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -119,7 +114,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchTest.testSearchinSearchLine" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="piguLt" />
       <extension name="coverage">
         <pattern>
@@ -129,8 +124,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="piguLt.tests.piguLt" />
       <option name="MAIN_CLASS_NAME" value="piguLt.tests.piguLt.SearchTest" />
-      <option name="METHOD_NAME" value="testSearchinSearchLine" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -139,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GiftCardTest.testSearchGiftCardAtPrice50Eu" />
-        <item itemvalue="TestNG.SearchTest.testSearchinSearchLine" />
-        <item itemvalue="TestNG.CartTest.testAddToCartItem" />
-        <item itemvalue="TestNG.LoginTest.testLoginWithWrongPassword" />
+        <item itemvalue="TestNG.SearchTest" />
         <item itemvalue="TestNG.GiftCardTest" />
+        <item itemvalue="TestNG.CartTest" />
+        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.LoginTest.testLoginWithWrongPassword" />
       </list>
     </recent_temporary>
   </component>
@@ -155,102 +149,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665838630573</updated>
-    </task>
-    <task id="LOCAL−00021" summary="Add login form locator">
-      <created>1665844584113</created>
-      <option name="number" value="LOCAL−00021" />
-      <option name="presentableId" value="LOCAL−00021" />
-      <updated>1665844584113</updated>
-    </task>
-    <task id="LOCAL−00022" summary="Implement enterEmail method to LoginTest">
-      <created>1665845031478</created>
-      <option name="number" value="LOCAL−00022" />
-      <option name="presentableId" value="LOCAL−00022" />
-      <updated>1665845031478</updated>
-    </task>
-    <task id="LOCAL−00023" summary="Add enertEmail method to LoginPage">
-      <created>1665845070919</created>
-      <option name="number" value="LOCAL−00023" />
-      <option name="presentableId" value="LOCAL−00023" />
-      <updated>1665845070919</updated>
-    </task>
-    <task id="LOCAL−00024" summary="Add inputEmail locator to Login class">
-      <created>1665845103481</created>
-      <option name="number" value="LOCAL−00024" />
-      <option name="presentableId" value="LOCAL−00024" />
-      <updated>1665845103481</updated>
-    </task>
-    <task id="LOCAL−00025" summary="Add sendKeysToElement method to Common class">
-      <created>1665845136797</created>
-      <option name="number" value="LOCAL−00025" />
-      <option name="presentableId" value="LOCAL−00025" />
-      <updated>1665845136798</updated>
-    </task>
-    <task id="LOCAL−00026" summary="Implement eneter password">
-      <created>1665845323246</created>
-      <option name="number" value="LOCAL−00026" />
-      <option name="presentableId" value="LOCAL−00026" />
-      <updated>1665845323246</updated>
-    </task>
-    <task id="LOCAL−00027" summary="Add enterPassword method to LofinPage">
-      <created>1665845366703</created>
-      <option name="number" value="LOCAL−00027" />
-      <option name="presentableId" value="LOCAL−00027" />
-      <updated>1665845366703</updated>
-    </task>
-    <task id="LOCAL−00028" summary="Add locator inputPassword to Login locators class">
-      <created>1665845397898</created>
-      <option name="number" value="LOCAL−00028" />
-      <option name="presentableId" value="LOCAL−00028" />
-      <updated>1665845397898</updated>
-    </task>
-    <task id="LOCAL−00029" summary="Implement clickElement to prisijungti button">
-      <created>1665845716882</created>
-      <option name="number" value="LOCAL−00029" />
-      <option name="presentableId" value="LOCAL−00029" />
-      <updated>1665845716882</updated>
-    </task>
-    <task id="LOCAL−00030" summary="Implement wait method">
-      <created>1665846006356</created>
-      <option name="number" value="LOCAL−00030" />
-      <option name="presentableId" value="LOCAL−00030" />
-      <updated>1665846006356</updated>
-    </task>
-    <task id="LOCAL−00031" summary="Implement readParagraphName method">
-      <created>1665846953801</created>
-      <option name="number" value="LOCAL−00031" />
-      <option name="presentableId" value="LOCAL−00031" />
-      <updated>1665846953801</updated>
-    </task>
-    <task id="LOCAL−00032" summary="Add locator">
-      <created>1665846969410</created>
-      <option name="number" value="LOCAL−00032" />
-      <option name="presentableId" value="LOCAL−00032" />
-      <updated>1665846969410</updated>
-    </task>
-    <task id="LOCAL−00033" summary="Add assert to Test testLoginWithCorrectData">
-      <created>1665847146935</created>
-      <option name="number" value="LOCAL−00033" />
-      <option name="presentableId" value="LOCAL−00033" />
-      <updated>1665847146935</updated>
-    </task>
-    <task id="LOCAL−00034" summary="Add testLoginWithWrongPassword test">
-      <created>1665848088900</created>
-      <option name="number" value="LOCAL−00034" />
-      <option name="presentableId" value="LOCAL−00034" />
-      <updated>1665848088901</updated>
-    </task>
-    <task id="LOCAL−00035" summary="Add SearchPage and SearchTest classes">
-      <created>1665848862523</created>
-      <option name="number" value="LOCAL−00035" />
-      <option name="presentableId" value="LOCAL−00035" />
-      <updated>1665848862523</updated>
-    </task>
-    <task id="LOCAL−00036" summary="Implement testSearchinSearchLine test">
-      <created>1665850833540</created>
-      <option name="number" value="LOCAL−00036" />
-      <option name="presentableId" value="LOCAL−00036" />
-      <updated>1665850833540</updated>
     </task>
     <task id="LOCAL−00037" summary="Implement SearchPage methods">
       <created>1665850891510</created>
@@ -450,7 +348,103 @@
       <option name="presentableId" value="LOCAL−00069" />
       <updated>1665903097733</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL−00070" summary="Delete not needed  test steps">
+      <created>1666080305879</created>
+      <option name="number" value="LOCAL−00070" />
+      <option name="presentableId" value="LOCAL−00070" />
+      <updated>1666080305879</updated>
+    </task>
+    <task id="LOCAL−00071" summary="Implement  doubleClickOnSearchLine and enterItemName locators in SearchPage.java">
+      <created>1666080416253</created>
+      <option name="number" value="LOCAL−00071" />
+      <option name="presentableId" value="LOCAL−00071" />
+      <updated>1666080416253</updated>
+    </task>
+    <task id="LOCAL−00072" summary="Implement GiftCardPage.java step">
+      <created>1666080503767</created>
+      <option name="number" value="LOCAL−00072" />
+      <option name="presentableId" value="LOCAL−00072" />
+      <updated>1666080503767</updated>
+    </task>
+    <task id="LOCAL−00073" summary="Delited not needed step in GiftCardTest.java">
+      <created>1666080538695</created>
+      <option name="number" value="LOCAL−00073" />
+      <option name="presentableId" value="LOCAL−00073" />
+      <updated>1666080538695</updated>
+    </task>
+    <task id="LOCAL−00074" summary="Rename clickOnNeededGiftCard step in test GiftCardTest.java">
+      <created>1666080606262</created>
+      <option name="number" value="LOCAL−00074" />
+      <option name="presentableId" value="LOCAL−00074" />
+      <updated>1666080606262</updated>
+    </task>
+    <task id="LOCAL−00075" summary="Delete not need methods in GiftCardPage.java">
+      <created>1666080678252</created>
+      <option name="number" value="LOCAL−00075" />
+      <option name="presentableId" value="LOCAL−00075" />
+      <updated>1666080678252</updated>
+    </task>
+    <task id="LOCAL−00076" summary="Delete not need methods in GiftCardPage.java">
+      <created>1666080710808</created>
+      <option name="number" value="LOCAL−00076" />
+      <option name="presentableId" value="LOCAL−00076" />
+      <updated>1666080710808</updated>
+    </task>
+    <task id="LOCAL−00077" summary="Add clickOnPAge method to GiftCardPage.java">
+      <created>1666080754270</created>
+      <option name="number" value="LOCAL−00077" />
+      <option name="presentableId" value="LOCAL−00077" />
+      <updated>1666080754270</updated>
+    </task>
+    <task id="LOCAL−00078" summary="Implement locator in Cookies locators">
+      <created>1666080829624</created>
+      <option name="number" value="LOCAL−00078" />
+      <option name="presentableId" value="LOCAL−00078" />
+      <updated>1666080829624</updated>
+    </task>
+    <task id="LOCAL−00079" summary="Rewrite xpath in ItemName/Cart/PuguLt/Locators">
+      <created>1666080895936</created>
+      <option name="number" value="LOCAL−00079" />
+      <option name="presentableId" value="LOCAL−00079" />
+      <updated>1666080895936</updated>
+    </task>
+    <task id="LOCAL−00080" summary="Rewrite xpath in GiftCard/PuguLt/Locators&#10;and delite not used">
+      <created>1666080956510</created>
+      <option name="number" value="LOCAL−00080" />
+      <option name="presentableId" value="LOCAL−00080" />
+      <updated>1666080956510</updated>
+    </task>
+    <task id="LOCAL−00081" summary="Delete not used step in CartTest.java">
+      <created>1666081018380</created>
+      <option name="number" value="LOCAL−00081" />
+      <option name="presentableId" value="LOCAL−00081" />
+      <updated>1666081018380</updated>
+    </task>
+    <task id="LOCAL−00082" summary="Add waitForCartPageLoad method to clickOnCartIcon">
+      <created>1666081119303</created>
+      <option name="number" value="LOCAL−00082" />
+      <option name="presentableId" value="LOCAL−00082" />
+      <updated>1666081119303</updated>
+    </task>
+    <task id="LOCAL−00083" summary="Delete comment">
+      <created>1666088713537</created>
+      <option name="number" value="LOCAL−00083" />
+      <option name="presentableId" value="LOCAL−00083" />
+      <updated>1666088713537</updated>
+    </task>
+    <task id="LOCAL−00084" summary="Implement LoginTest.java">
+      <created>1666088735227</created>
+      <option name="number" value="LOCAL−00084" />
+      <option name="presentableId" value="LOCAL−00084" />
+      <updated>1666088735227</updated>
+    </task>
+    <task id="LOCAL−00085" summary="Implement enterEmail method , add wait step">
+      <created>1666088782735</created>
+      <option name="number" value="LOCAL−00085" />
+      <option name="presentableId" value="LOCAL−00085" />
+      <updated>1666088782735</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -465,22 +459,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add Locators to Cart class" />
-    <MESSAGE value="Add string to CartTest class" />
-    <MESSAGE value="Add methods to CartTest" />
-    <MESSAGE value="Add assert to CartTest" />
-    <MESSAGE value="Add methods to CartPage" />
-    <MESSAGE value="Add methods to accept cookies" />
-    <MESSAGE value="Add GiftCardPage and GiftCardTest" />
-    <MESSAGE value="Add locators to GiftCard class" />
-    <MESSAGE value="Implement GiftCardPage" />
-    <MESSAGE value="Implement GiftCardTest" />
-    <MESSAGE value="Implement Locators to GiftCard class" />
-    <MESSAGE value="Rename test" />
-    <MESSAGE value="Implement testSearchGiftCardAtPrice50Eu test" />
-    <MESSAGE value="Add methods to GiftCardPage" />
-    <MESSAGE value="Add paragraphText locator" />
-    <MESSAGE value="Add readGiftCardName method to GiftCardPage" />
     <MESSAGE value="Add String to testSearchGiftCardAtPrice50Eu" />
     <MESSAGE value="Implement TestListener" />
     <MESSAGE value="Implement TestListener method" />
@@ -490,6 +468,22 @@
     <MESSAGE value="Add README.md file" />
     <MESSAGE value="Implement README.md file" />
     <MESSAGE value="Implement paragraphName locator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement paragraphName locator" />
+    <MESSAGE value="Delete not needed  test steps" />
+    <MESSAGE value="Implement  doubleClickOnSearchLine and enterItemName locators" />
+    <MESSAGE value="Implement  doubleClickOnSearchLine and enterItemName locators in SearchPage.java" />
+    <MESSAGE value="Implement GiftCardPage.java step" />
+    <MESSAGE value="Delited not needed step in GiftCardTest.java" />
+    <MESSAGE value="Rename clickOnNeededGiftCard step in test GiftCardTest.java" />
+    <MESSAGE value="Delete not need methods in GiftCardPage.java" />
+    <MESSAGE value="Add clickOnPAge method to GiftCardPage.java" />
+    <MESSAGE value="Implement locator in Cookies locators" />
+    <MESSAGE value="Rewrite xpath in ItemName/Cart/PuguLt/Locators" />
+    <MESSAGE value="Rewrite xpath in GiftCard/PuguLt/Locators&#10;and delite not used" />
+    <MESSAGE value="Delete not used step in CartTest.java" />
+    <MESSAGE value="Add waitForCartPageLoad method to clickOnCartIcon" />
+    <MESSAGE value="Delete comment" />
+    <MESSAGE value="Implement LoginTest.java" />
+    <MESSAGE value="Implement enterEmail method , add wait step" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement enterEmail method , add wait step" />
   </component>
 </project>
