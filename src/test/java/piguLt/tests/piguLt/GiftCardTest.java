@@ -27,7 +27,7 @@ public class GiftCardTest extends TestBase {
         GiftCardPage.enetrMaxPrice(maxPrice);
         GiftCardPage.clickOnPage();
         GiftCardPage.waitForGiftCardPage();
-        GiftCardPage.clickOnNeededGiftCsrd();
+        GiftCardPage.clickOnNeededGiftCard();
         GiftCardPage.waitFor50EUGifCardPageLoad();
 
         actualfind = GiftCardPage.readGiftCardName();
