@@ -14,6 +14,7 @@ public class SearchPage {
     }
 
     public static void doubleClickOnSearchLine() {
+        Common.waitForElementChangeVisability(Locators.PiguLt.Search.searchLine);
         Common.doubleClickByActions(Locators.PiguLt.Search.searchLine);
     }
 
