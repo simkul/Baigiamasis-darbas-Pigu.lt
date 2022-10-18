@@ -24,8 +24,6 @@ public class SearchTest extends TestBase {
         SearchPage.enterItemName(expectedItem);
         SearchPage.clickOnSearchButton();
         SearchPage.waitForSearchPageLoad();
-        SearchPage.clickOnSearchedItem();
-        SearchPage.waitForItemPageLoad();
 
         actualItem = SearchPage.readSearchedItemName();
         Assert.assertTrue(actualItem.contains(expectedItem),
