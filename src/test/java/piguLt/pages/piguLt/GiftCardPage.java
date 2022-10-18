@@ -39,14 +39,6 @@ public class GiftCardPage {
                 Locators.PiguLt.GiftCard.priceWindow);
     }
 
-    public static void clickToCloseFiltrai() {
-        Common.clickElement(Locators.PiguLt.GiftCard.closeButton);
-    }
-
-    public static void waitForFiltraiPage() {
-        Common.waitForElementChangeVisability(Locators.PiguLt.GiftCard.filtraiPage);
-    }
-
     public static void waitForGiftCardPage() {
         Common.waitForElementChangeVisability(Locators.PiguLt.GiftCard.aktyvusFiltraiText);
     }
