@@ -1,6 +1,5 @@
 package piguLt.pages.piguLt;
 
-import org.openqa.selenium.WebElement;
 import piguLt.pages.Common;
 import piguLt.pages.Locators;
 
@@ -15,10 +14,10 @@ public class LoginPage {
 
 
     public static void waitForLoginFormVisabilyti() {
-        Common.waitForElementChangeVisability(Locators.PiguLt.Login.loginForm);
-    }
+       Common.waitForElementChangeVisability(Locators.PiguLt.Login.inputEmail);}
 
     public static void enetrEmail(String insertEmail) {
+        Common.waitForElementChangeVisability(Locators.PiguLt.Login.inputEmail);
         Common.sendKeysToElement(
                 insertEmail,
                 Locators.PiguLt.Login.inputEmail
@@ -37,14 +36,26 @@ public class LoginPage {
     }
 
     public static void waitForProfilePageLoad() {
-        Common.waitForElementChangeVisability(Locators.PiguLt.Login.profilePage);
+        Common.waitForElementChangeVisability(Locators.PiguLt.Login.slapukaiPage);}
+
+
+    public static void submitCookies() {
+        Common.clickElement(Locators.PiguLt.Login.clickSubmitButton);
     }
 
+    public static void clickProfileIcon() {
+        Common.waitForElementChangeVisability(Locators.PiguLt.Login.profileIcon);
+        Common.clickElement(Locators.PiguLt.Login.profileIcon);
+    }
 
-    public static String readParafraphName() {
+    public static String readParagraphName() {
         return Common.getElementText(
-                Locators.PiguLt.Login.paragraphName);
+                Locators.PiguLt.Login.profilePage);
     }
+
+
+
+
 
     public static void enterWrongPasswor(String insertWrongPassword) {
         Common.sendKeysToElement(
