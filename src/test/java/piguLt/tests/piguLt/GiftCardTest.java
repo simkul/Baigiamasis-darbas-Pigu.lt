@@ -23,8 +23,6 @@ public class GiftCardTest extends TestBase {
         GiftCardPage.waitForPage();
         GiftCardPage.clickOnPiguLtKuponai();
         GiftCardPage.waitForPiguLtKuponaiPage();
-        GiftCardPage.clickOnFiltraiButton();
-        GiftCardPage.waitForFiltraiPage();
         GiftCardPage.doubleClickOnPrice();
         GiftCardPage.enetrMaxPrice(maxPrice);
         GiftCardPage.clickOnPage();
