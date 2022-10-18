@@ -51,4 +51,8 @@ public class GiftCardPage {
     public static String readGiftCardName() {
         return Common.getElementText(Locators.PiguLt.GiftCard.paragraphText);
     }
+
+    public static void clickOnPage() {
+        Common.clickElement(Locators.PiguLt.GiftCard.clickOnKuponaiPage);
+    }
 }
