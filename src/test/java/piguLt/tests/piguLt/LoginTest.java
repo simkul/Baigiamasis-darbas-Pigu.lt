@@ -27,8 +27,10 @@ public class LoginTest extends TestBase {
         LoginPage.enerPassword(insertPassword);
         LoginPage.clickOnPrisijungtiButton();
         LoginPage.waitForProfilePageLoad();
+        LoginPage.submitCookies();
+        LoginPage.clickProfileIcon();
 
-        actualRezult= LoginPage.readParafraphName();
+        actualRezult= LoginPage.readParagraphName();
 
         Assert.assertTrue(actualRezult.contains(exeptedRezult),
                 String.format("Actual [%s]; Expected [%s]",
