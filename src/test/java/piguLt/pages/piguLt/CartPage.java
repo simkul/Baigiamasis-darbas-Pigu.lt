@@ -34,11 +34,8 @@ public class CartPage {
     }
 
     public static void clickOnCartIcon() {
+        Common.waitForElementChangeVisability(Locators.PiguLt.Cart.cartIcon);
         Common.clickElement(Locators.PiguLt.Cart.cartIcon);
-    }
-
-    public static void waitForCarPageLoad() {
-        Common.waitForElementChangeVisability(Locators.PiguLt.Cart.cartPage);
     }
 
     public static String readItemName() {
