@@ -36,18 +36,14 @@ public class Locators {
 
         }
         public static class GiftCard{
-            public static By piguLtGiftCard = By.xpath("//*[@id=\"categoriesGrid\"]/div[2]/a/p");
-            public static By waitLoadPage = By.xpath("//*[@id=\"categoryBranch\"]/div");
-            public static By filtraiButto = By.xpath("//*[@id=\"leafControl\"]/div[2]/section/div[6]/div/div[1]/a");
-            public static By priceWindow = By.xpath("//*[@id=\"rangeSlider-price-range\"]/div[1]/div[2]/input");
-            public static By closeButton = By.xpath("//*[@id=\"leafControl\"]/div[1]/div[1]/a/svg/path");
-            public static By filtraiPage = By.xpath("//*[@id=\"leafControl\"]/div[1]/div[1]/div");
-            public static By aktyvusFiltraiText = By.xpath("//*[@id=\"activeFilters\"]/div[1]");
-            public static By needeGiftCard = By.xpath("//*[@id=\"productBlock8439434\"]/div/div/div[3]/a/img");
-            public static By giftCardFor50Eu = By.xpath("//*[@id=\"gallery6388196\"]");
-            public static By paragraphText = By.xpath("//*[@id=\"productPage\"]/section[1]/div[1]/h1");
-
-
+            public static By piguLtGiftCard = By.xpath("//*[@id='categoriesGrid']/div[2]");
+            public static By waitLoadPage = By.xpath("//*[@class='site-block clearfix']");
+            public static By priceWindow = By.xpath("//input[@class='price-to']");
+            public static  By clickOnKuponaiPage = By.xpath("//*[@id='leafControl']//*[@class='list-section']");
+            public static By aktyvusFiltraiText = By.xpath("//*[text()='Aktyvūs filtrai']");
+            public static By neededGiftCard = By.xpath("//*[@id=\"productBlock8439434\"]/div/div/div[3]/a/img");
+            public static By giftCardFor50Eu = By.xpath("//*[@id='gallery6388196']");
+            public static By paragraphText = By.xpath("//h1[text()='El. Dovanų kuponas, €50']");
 
         }
     }
