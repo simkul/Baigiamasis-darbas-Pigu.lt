@@ -9,9 +9,11 @@ public class SearchPage {
     }
 
     public static void acceptPrivacyConfirmation() {
-        Common.waitForElementChangeVisability(Locators.PiguLt.Cookies.coockieBlog);
+        Common.waitForElementChangeClickable(Locators.PiguLt.Cookies.coockieBlog);
         Common.clickElement(Locators.PiguLt.Cookies.coockieAceptButton);
     }
+
+
 
     public static void doubleClickOnSearchLine() {
         Common.waitForElementChangeVisability(Locators.PiguLt.Search.searchLine);
