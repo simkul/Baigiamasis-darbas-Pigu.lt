@@ -29,7 +29,6 @@ public class CartTest extends TestBase {
         CartPage.waitForCartForm();
         CartPage.closeCartForm();
         CartPage.clickOnCartIcon();
-        CartPage.waitForCarPageLoad();
 
         actualItem = CartPage.readItemName();
 
