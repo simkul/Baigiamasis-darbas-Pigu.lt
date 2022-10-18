@@ -7,7 +7,7 @@ public class Locators {
     public static class PiguLt{
         public static class Cookies{
             public static By coockieBlog = By.xpath("//*[@id='cookie_block']");
-            public static By coockieAceptButton = By.xpath("//*[@id=\"cookie_block\"]/div/div/div[2]/button");
+            public static By coockieAceptButton = By.xpath("//button[@class='button agree']");
         }
         public static class Login{
             public static By loginForm = By.xpath("//*[@id=\"loginModal\"]/div[1]/div[1]/form");
