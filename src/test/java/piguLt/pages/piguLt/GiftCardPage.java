@@ -25,9 +25,6 @@ public class GiftCardPage {
         Common.waitForElementChangeVisability(Locators.PiguLt.GiftCard.waitLoadPage);
     }
 
-    public static void clickOnFiltraiButton() {
-        Common.clickElement(Locators.PiguLt.GiftCard.filtraiButto);
-    }
 
     public static void doubleClickOnPrice() {
         Common.doubleClickByActions(Locators.PiguLt.GiftCard.priceWindow);
@@ -43,8 +40,8 @@ public class GiftCardPage {
         Common.waitForElementChangeVisability(Locators.PiguLt.GiftCard.aktyvusFiltraiText);
     }
 
-    public static void clickOnNeededGiftCsrd() {
-        Common.clickElement(Locators.PiguLt.GiftCard.needeGiftCard);
+    public static void clickOnNeededGiftCard() {
+        Common.clickElement(Locators.PiguLt.GiftCard.neededGiftCard);
     }
 
     public static void waitFor50EUGifCardPageLoad() {
