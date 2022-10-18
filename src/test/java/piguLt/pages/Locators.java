@@ -32,8 +32,7 @@ public class Locators {
             public static By cartForm = By.xpath("//*[@id=\"modal\"]/div/div/div/div[2]");
             public static By closeButton = By.xpath("//*[@id=\"close\"]");
             public static By cartIcon = By.xpath("//*[@id=\"cartWidget\"]/a/i");
-            public static By cartPage = By.xpath("//*[@id=\"sliceBlock124274801\"]");
-            public static By itemName = By.xpath("//*[@id=\"productSliceBlock363493696\"]/td[2]/div[1]");
+            public static By itemName = By.xpath("//div[@class='product-name']/a");
 
         }
         public static class GiftCard{
